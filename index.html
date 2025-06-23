@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssessmentTracker</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Welcome Screen -->
+        <div id="welcome-screen">
+            <h1>AssessmentTracker</h1>
+            <p>Welcome, Student! You are about to begin the Python Basics quiz.</p>
+            <p><strong>Rules:</strong></p>
+            <ul>
+                <li>The quiz will automatically enter full-screen mode.</li>
+                <li>Do not exit full-screen or switch tabs.</li>
+                <li>Copying and pasting is disabled.</li>
+            </ul>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Screen (Initially Hidden) -->
+        <div id="quiz-screen" class="hidden">
+            <div class="quiz-header">
+                <h2 id="quiz-title">Python Basics Quiz</h2>
+                <div id="timer">10:00</div>
+            </div>
+            <hr>
+            <div id="question-container">
+                <p id="question-text">This is where the question text will go.</p>
+                <div id="options-container">
+                    <!-- Options will be dynamically generated here -->
+                </div>
+            </div>
+            <div class="navigation-buttons">
+                <button id="prev-btn">Previous</button>
+                <button id="next-btn">Next</button>
+                <button id="submit-btn">Submit Quiz</button>
+            </div>
+        </div>
+
+        <!-- Results Screen (Initially Hidden) -->
+        <div id="results-screen" class="hidden">
+            <h1>Quiz Complete!</h1>
+            <p id="score-text">Your final score is:</p>
+            <p id="cheating-flags-text">Suspicious activity flags:</p>
+            <button id="retry-btn">Try Another Quiz</button>
+        </div>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="index.js"></script>
+</body>
+</html>
