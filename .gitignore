@@ -1,0 +1,64 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migration files
+*/migrations/
+!*/migrations/__init__.py
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# SQLite database
+db.sqlite3
+*.sqlite3
+
+# Django media and static files
+/media/
+/staticfiles/
+/static/
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# Testing
+.pytest_cache/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# IDEs and Editors
+.idea/
+*.swp
+*~
