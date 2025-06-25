@@ -91,6 +91,7 @@ function startQuiz() {
 }
 
 function loadQuestion() {
+    // we are calling our Django server to fetch quiz data 
     const question = quizData.questions[currentQuestionIndex];
     questionTextEl.textContent = question.questionText;
     
