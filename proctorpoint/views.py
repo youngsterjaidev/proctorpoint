@@ -20,4 +20,4 @@ def index(request):
 
 # Create that send the quiz data to client
 def get_all_quiz(request):
-    return JsonResponse(tempQuiz)
+    return JsonResponse(tempQuiz) #
