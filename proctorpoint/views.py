@@ -4,7 +4,7 @@ from django.http import HttpResponse, JsonResponse
 tempQuiz = {
     "title": "Python Quiz",
     "timeLimit": 300,
-    "question": [
+    "questions": [
         {
             "questionText": "What function is used to print output to the console?",
             "options": ["console.log()", "print()", "echo()", "output()"],
