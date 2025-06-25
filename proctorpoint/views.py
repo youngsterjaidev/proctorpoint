@@ -14,7 +14,7 @@ tempQuiz = {
     ]
 }
 
-
+#
 def index(request):
     return HttpResponse("Hi Subram!")
 
